@@ -8,7 +8,7 @@ if st.button("Submit"):
 
 
 age=st.number_input("Enter your age")
-if st.button("Submit"):
+if st.button("Check Eligibility"):
    if age>=18:
       st.success("Eligible to vote")
    else:
