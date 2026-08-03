@@ -7,7 +7,7 @@ if st.button("Submit"):
    st.write(f"Hello,{name}")
 
 
-age=st.int_input("Enter your age")
+age=st.number_input("Enter your age")
 if st.button("Submit"):
    if age>=18:
       st.success("Eligible to vote")
